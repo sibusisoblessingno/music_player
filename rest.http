@@ -1,0 +1,14 @@
+###
+GET http://localhost:5000/api/play/1
+
+###
+POST http://localhost:5000/api/like
+Content-Type: application/json
+
+{
+    "id": 11
+}
+
+
+###
+GET http://localhost:5000/api/songs?sort=none
